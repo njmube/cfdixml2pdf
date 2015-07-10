@@ -31,10 +31,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="public\javascripts\f.js" />
+    <Compile Include="public\javascripts\fabric.all.min.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
     <Content Include="package.json" />
+    <Content Include="public\index.html" />
+    <Content Include="public\javascripts\json.json" />
+    <Content Include="public\stylesheets\style.css" />
     <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
     <Content Include="views\index.jade" />
